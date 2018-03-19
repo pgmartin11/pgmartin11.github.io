@@ -4,19 +4,19 @@ body {
  /* background-color: pink; */
 }
 
-.sidebar {
+aside {
   grid-area: sidebar;
 }
 
-.content {
-  grid-area: content;
+main {
+  grid-area: main;
 }
 
-.header {
+header {
   grid-area: header;
 }
 
-.footer {
+footer {
 	grid-area: footer;
 }
 
@@ -26,7 +26,7 @@ body {
   grid-template-columns: minmax(100px, 200px) 1fr  1fr;
   grid-template-areas:
     "header header header"
-		"content content sidebar"
+		"main main sidebar"
     "footer footer footer";
 }
 
@@ -37,6 +37,6 @@ body {
   padding: 20px;
 }
 
-.header {
+header.box {
   background-color: #999;
 }
