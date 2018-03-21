@@ -37,6 +37,6 @@ footer {
   padding: 20px;
 }
 
-header.box {
+header.box, footer.box {
   background-color: #999;
 }
